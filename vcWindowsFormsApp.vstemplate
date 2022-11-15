@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Windows Forms App (.NET Framework)</Name>
+    <Description> A project for creating an application with a Windows Forms (WinForms) user interface</Description>
+	<Icon>__TemplateIcon.ico</Icon>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>11</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>WindowsFormsApp</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+	<CreateInPlace>false</CreateInPlace>
+    <LanguageTag>C++</LanguageTag>
+    <PlatformTag>Windows</PlatformTag>
+    <ProjectTypeTag>Desktop</ProjectTypeTag>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$projectname$.vcxproj" File="windowsformsapp.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="$projectname$.vcxproj.filters">windowsformsapp.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cpp">Program.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.h">Form1.h</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

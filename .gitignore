@@ -1,0 +1,9 @@
+*.zip
+*.user
+.vs/
+.vscode/
+.history/
+.localhistory/
+*.code-workspace
+*.bin
+*.7z
